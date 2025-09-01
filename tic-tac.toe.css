@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(46, 143, 240);
+}
+.container{
+    border: none;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+   margin-top: 30px;
+   margin-left: 450px;
+   background-color: rgb(88, 88, 243)
+  
+}
+.heading1{
+    text-align: center;
+    margin-top: 25px;
+    color: orange;
+    word-spacing: 5px;
+    font-family: Verdana,Tahoma, sans-serif;
+}
+
+.player{
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 70px;
+    margin-top: 20px;
+    background: rgba(125, 168, 248, 0.5);
+}
+.main{
+    display: flex;
+    border: none;
+    gap: 15px;
+    text-align: center;
+    width: 250px;
+    padding: 15px;
+     border-radius: 10px;
+      margin-top: 20px;
+       margin-left: 70px;
+       color: white;
+       background: rgba(125, 168, 248, 0.5);
+}
+.main1{
+    color: red;
+}
+.main2{
+    color: white;
+}
+.main3{
+    color: blue;
+}
+.game{
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 5px;
+    margin-left: 70px;
+    margin-top: 20px;
+   
+}
+.box{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    
+   
+}
+.reset{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.newbtn{
+    padding: 15px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    background:linear-gradient(to right,red,yellow);
+    color: white;
+    font-weight: bold;
+    font-family: verdana;
+}
+#msg{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(160, 226, 5);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.hide{
+    display: none;
+}
+
